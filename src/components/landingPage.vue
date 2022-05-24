@@ -462,7 +462,7 @@ button.btn-login:hover {
     font-family: Karla;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 30px;
     letter-spacing: -0.4px;
     color: #333333;
