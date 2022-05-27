@@ -728,6 +728,15 @@ button.btn-login:hover {
     line-height: 30px;
     color: #000000;
 }
+.content-5-card .content-body p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: #000;
+}
 /* section-6 */
 #section_6 {
     padding-bottom: 120px;
