@@ -299,7 +299,7 @@
     <div id="section_7" class="section_7 bagian-ketujuh">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="second-bg w-100 h-100"></div>
+          <!-- <div class="second-bg w-100 h-100"></div> -->
           <div class="col-xl-9 px-lg-12 col-md-12">
             <div class="row justify-content-center">
               <div class="col-lg-10 text-center">
@@ -525,9 +525,11 @@ export default {};
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   padding: 0%;
   margin: 0%;
+  font-family: Poppins;
 }
 img {
   max-width: 100%;
@@ -538,16 +540,12 @@ li {
 }
 nav {
   border-bottom: 1px solid #fafa;
-
-  /* background-image: url('../assets/png/bg-7.jpg'); 
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 .navbar-light .navbar-nav a.nav-link {
   color: #000;
   text-decoration: none;
 
-  font-family: Karla;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   font-style: normal;
@@ -582,27 +580,23 @@ button.btn-login:hover {
 }
 /* section_1 */
 #section_1 {
-  margin-top: 50px;
+  margin-top: 35px;
   padding-top: 150px;
   padding-bottom: 70px;
-
-  /* background-image: url('../assets/png/bg-8.jpg'); 
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 .head {
-  font-family: "Gothic A1", sans-serif;
+  font-family: Poppins;
   color: #000;
-  font-size: 64px;
+  font-size: 52px;
   font-weight: 800;
   font-style: normal;
   letter-spacing: -3px;
-  /* line-height: 55px; */
+  line-height: 55px;
   margin-bottom: 38px;
   text-align: left;
 }
 .ket-head {
-  font-family: Karla;
+  font-family: Poppins;
   color: #000;
   font-size: 21px;
   font-weight: 400;
@@ -626,7 +620,7 @@ button.btn-login:hover {
   align-items: center;
 }
 .compitable-text .with {
-  font-family: Karla;
+  font-family: Poppins;
   color: #000;
   font-size: 21px;
   font-weight: 400;
@@ -643,7 +637,7 @@ button.btn-login:hover {
   height: 60px;
   background: rgb(255, 0, 0);
   border-radius: 3px;
-  font-family: Karla;
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -658,9 +652,6 @@ button.btn-login:hover {
   background-color: transparent;
   border: rgb(255, 0, 0) solid 1px;
 }
-/* .btn.btn-outline-light:hover {
-        background-color: transparent;
-    } */
 /* section_2 */
 #section_2 {
   margin-top: 70px;
@@ -675,7 +666,7 @@ button.btn-login:hover {
   padding-top: 130px;
 }
 .section-heading-5 h2 {
-  font-family: Gothic A1;
+  font-family: Poppins;
   color: #1f1f1f;
   font-size: 48px;
   font-weight: 800;
@@ -686,7 +677,7 @@ button.btn-login:hover {
   text-align: left;
 }
 .section-heading-5 p {
-  font-family: Karla;
+  font-family: Poppins;
   color: #333333;
   font-size: 21px;
   font-weight: 400;
@@ -712,7 +703,7 @@ button.btn-login:hover {
     margin-right: 25px;
 }
 .content p {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -722,14 +713,14 @@ button.btn-login:hover {
 }
 .content-body h5 {
     text-align: left;
-    font-family: "Gothic A1";
+    font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
     color: #000000;
 }
 .content-5-card .content-body p {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -742,7 +733,7 @@ button.btn-login:hover {
     padding-bottom: 120px;
 }
 .section-heading-5 p {
-    font-family: Karla;
+    font-family: Poppins;
     color: #333333;
     font-size: 21px;
     font-weight: 400;
@@ -756,7 +747,7 @@ button.btn-login:hover {
     margin-bottom: -20px;
 }
 .section-heading-5 ul li {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -804,7 +795,7 @@ button.btn-login:hover {
 }
 .section-heading-7 h2 {
   text-align: center;
-  font-family: Gothic A1;
+  font-family: Poppins;
   color: #FFFFFF;
   font-size: 48px;
   font-weight: 800;
@@ -814,7 +805,7 @@ button.btn-login:hover {
   margin-bottom: 35px;
 }
 .section-heading-7 p {
-    font-family: Karla;
+    font-family: Poppins;
     color: #ffffff;
     font-size: 21px;
     font-weight: 400;
@@ -824,7 +815,7 @@ button.btn-login:hover {
     margin-bottom: 0;
 }
 .content-body h5 {
-    font-family: Gothic A1;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 800;
     font-size: 21px;
@@ -832,7 +823,7 @@ button.btn-login:hover {
     letter-spacing: -1px;
 }
 .content-body p {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -848,7 +839,7 @@ button.btn-login:hover {
   padding-bottom: 50px;
 }
 .section-heading-8 h2 {
-    font-family: Gothic A1;
+    font-family: Poppins;
     color: #1F1F1F;
     font-size: 48px;
     font-weight: 800;
@@ -858,7 +849,7 @@ button.btn-login:hover {
     margin-bottom: 35px;
 }
 .section-heading-8 span {
-    font-family: Karla;
+    font-family: Poppins;
     color: #333333;
     font-size: 24px;
     font-weight: 400;
@@ -871,7 +862,7 @@ button.btn-login:hover {
   text-align: justify;
   padding: 0 41px;
 
-  font-family: Karla;
+  font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -894,7 +885,7 @@ button.btn-login:hover {
   text-align: left;
 }
 .col-xl-6 .foto-testimoni .nama-testimoni h5 {
-  font-family: Gothic A1;
+  font-family: Poppins;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -903,7 +894,7 @@ button.btn-login:hover {
   color: #000000;
 }
 .col-xl-6 .foto-testimoni .nama-testimoni .work {
-  font-family: Karla;
+  font-family: Poppins;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -933,7 +924,7 @@ button.btn-login:hover {
   transition: width 2s, height 2s, transform 2s;
 } */
 #section_9 .content h5 {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -945,7 +936,7 @@ button.btn-login:hover {
     margin-bottom: 30px;
 }
 #section_9 .content h2 {
-    font-family: Gothic A1;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 800;
     font-size: 42px;
@@ -956,7 +947,7 @@ button.btn-login:hover {
     margin-bottom: 20px;
 }
 #section_9 .content p {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -968,7 +959,7 @@ button.btn-login:hover {
 #section_9 .content .btn {
     min-width: 226px;
     height: 60px;
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -982,7 +973,7 @@ button.btn-login:hover {
     margin-top: 20px;
 }
 #section_9 .content span {
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1002,7 +993,7 @@ footer {
   text-decoration: none;
   padding-left: 20px;
 
-  font-family: Karla;
+  font-family: Poppins;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -1023,7 +1014,7 @@ ul li a img {
 }
 .copyright p {
     margin-bottom: 0;
-    font-family: Karla;
+    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1044,7 +1035,7 @@ ul li a img {
     padding-top: 0px;
   }
   #section_1 h1 {
-    font-family: 'Gothic A1', sans-serif;
+    font-family: Poppins;
     color: #1F1F1F;
     font-size: 34px;
     font-weight: 800;
