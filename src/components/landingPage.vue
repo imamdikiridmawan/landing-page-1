@@ -1,6 +1,7 @@
 <template>
   <div class="lp" id="lp">
     <div id="section_nav" class="section_nav">
+      
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div class="container">
           <a class="navbar-brand" href="/">
@@ -1024,6 +1025,40 @@ ul li a img {
     color: #666666;
 }
 @media (max-width: 559px) {
+  #section_nav .navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #section_nav .navbar .container .collapse  {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  #section_nav .navbar .container .navbar-nav li a {
+    color: #FFFFFF;
+  }
+  .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #FFFFFF;
+  transition: width 0.3s;
+}
+nav {
+  border-bottom: 0;
+}
+.nav-link:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+  .navbar-collapse {
+    text-align: -webkit-left;
+    background-color: orangered;
+    display: flex;
+  }
+  #section_nav .navbar .btn-login {
+    display: none;
+  }
   #section_phone {
     margin-top: 100px;
   }
@@ -1074,5 +1109,13 @@ ul li a img {
   #section_5 .container .row .col-xxl-9 {
     order: 1;
   }
+@media (min-width: 992px) {
+  #section_1 .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }  
+}
 }
 </style>
