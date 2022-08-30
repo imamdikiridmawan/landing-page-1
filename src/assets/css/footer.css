@@ -1,0 +1,40 @@
+footer {
+    padding-top: 100px;
+  }
+  .row .col-md-3 .footer-logo img {
+    width: 70px;
+  }
+  .col-md-6 .footer-widget ul li a {
+    text-decoration: none;
+    padding-left: 20px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.642857px;
+    color: #333333;
+  }
+  .social-icons ul li a {
+      padding-left: 15px;
+  }
+  ul li a img {
+    width:25px;
+  }
+  .copyright {
+      padding-top: 40px;
+      padding-bottom: 30px;
+  }
+  .copyright p {
+      margin-bottom: 0;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: -0.642857px;
+      color: #666666;
+  }
