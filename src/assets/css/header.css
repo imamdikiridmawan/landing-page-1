@@ -1,0 +1,44 @@
+/* Navbar */
+li {
+    margin-bottom: -5px;
+  }
+  nav {
+    border-bottom: 1px solid #fafa;
+  }
+  .navbar-light .navbar-nav a.nav-link {
+    color: #000;
+    text-decoration: none;
+  
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  .navbar-light .navbar-nav a.nav-link:hover {
+    color: rgb(255, 0, 0);
+  }
+  
+  .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 0, 0);
+    transition: width 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+  button.btn-login {
+    color: #ffffff;
+    background: rgb(255, 0, 0);
+  }
+  button.btn-login:hover {
+    color: rgb(255, 0, 0);
+    background: transparent;
+    border: solid 1px rgb(255, 0, 0);
+  }

@@ -1,14 +1,21 @@
 <template>
+  <Header />
   <landingPage />
+  <Footer />
+  <router-view/>
 </template>
 
 <script>
 import landingPage from './components/landingPage.vue'
+import Header from './components/header.vue'
+import Footer from './components/footer.vue';
 
 export default {
   name: 'App',
   components: {
-    landingPage
+    Header,
+    landingPage,
+    Footer
   }
 }
 </script>
